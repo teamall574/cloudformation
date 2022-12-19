@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "template to create the cloud formation"
+Resources:
+  MYS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketEncryption: 
+          ServerSideEncryptionConfiguration: 
+            -   ServerSideEncryptionByDefault: 
+                  SSEAlgorithm" : AES256
+      BucketName: anji4578ghjfh
+      
+    
+
+    MYS33Bucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketEncryption: 
+          ServerSideEncryptionConfiguration: 
+            -   ServerSideEncryptionByDefault: 
+                  SSEAlgorithm" : AES256
+        BucketName: anji5578ghjfhhhhh
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
